@@ -1,0 +1,19 @@
+Meera Iyer
+Mumbai, India | meera.iyer@email.com | +91-9871234560
+
+SUMMARY
+Data Analyst with 3 years of experience in SQL-heavy reporting and dashboarding.
+Limited software engineering / API development experience.
+
+SKILLS
+SQL, Excel, Tableau, Power BI, basic Python (pandas), basic statistics
+
+EXPERIENCE
+Data Analyst, HDFC Bank - Mumbai (2021-Present)
+- Built dashboards in Tableau for business stakeholders
+- Wrote complex SQL queries against a data warehouse
+- Automated recurring reports using Python/pandas scripts
+
+EDUCATION
+B.Com, University of Mumbai (2017-2020)
+Postgraduate Diploma in Business Analytics, NMIMS (2020-2021)
