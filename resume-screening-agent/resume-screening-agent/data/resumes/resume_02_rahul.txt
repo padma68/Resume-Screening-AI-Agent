@@ -1,0 +1,21 @@
+Rahul Menon
+Pune, India | rahul.menon@email.com | +91-9123456780
+
+SUMMARY
+Full-stack developer with 4 years of experience, primarily JavaScript/Node.js, some
+exposure to Python scripting.
+
+SKILLS
+JavaScript, Node.js, Express, React, MongoDB, HTML/CSS, Git, basic AWS (S3, Lambda)
+
+EXPERIENCE
+Software Engineer, Zoho - Chennai (2021-Present)
+- Built customer-facing dashboards using React and Node.js
+- Wrote Lambda functions for lightweight backend tasks
+- Used MongoDB for data storage
+
+Junior Developer, Freshdesk - Chennai (2020-2021)
+- Maintained internal tools in JavaScript
+
+EDUCATION
+B.E. in Information Technology, Anna University (2016-2020)

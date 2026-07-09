@@ -1,0 +1,22 @@
+Sneha Pillai
+Bengaluru, India | sneha.pillai@email.com | +91-9223344556
+
+SUMMARY
+Backend engineer with 4 years experience, strong Python/FastAPI background, currently
+working on ML model deployment; comfortable with the full stack this role needs.
+
+SKILLS
+Python, FastAPI, PostgreSQL, Docker, AWS (EC2, S3), Git, GitHub Actions, scikit-learn,
+basic Kubernetes, Data Structures & Algorithms
+
+EXPERIENCE
+Backend Engineer, CRED - Bengaluru (2021-Present)
+- Built and maintained FastAPI services for the rewards platform
+- Deployed scikit-learn fraud-detection model behind an internal API
+- Used Docker + GitHub Actions for CI/CD; AWS EC2/S3 for hosting
+
+Software Engineer, Mindtree - Bengaluru (2020-2021)
+- Built internal tools in Python/Django
+
+EDUCATION
+B.E. in Computer Science, RV College of Engineering (2016-2020)
