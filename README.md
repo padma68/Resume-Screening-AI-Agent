@@ -320,6 +320,10 @@ The test suite validates resume parsing, score calculation, ranking logic, and o
 
 ---
 
+Web Application Live: [https://resume-screening-ai-agent-2.onrender.com/]
+
+Resume Screening AI Agent Video Link [https://drive.google.com/file/d/1h96v1KSXnSmo1kEVYSZSwzsOr6p9yOgn/view?usp=sharing]
+
 
 ## 19. Author
 
