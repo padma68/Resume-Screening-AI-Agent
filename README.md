@@ -97,13 +97,9 @@ F
 - pytest
 
 ---
-
+---
 ## 5. Project Structure
 
-
-## Project structure
-
-```
 resume-screening-agent/
 ├── server.py                   # Flask API + serves the frontend (python server.py)
 ├── static/
@@ -128,7 +124,7 @@ resume-screening-agent/
 
 ---
 
-## 6. Installation
+## 6. Installation                                                         
 
 ```bash
 git clone <repository-url>
