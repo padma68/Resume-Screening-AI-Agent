@@ -97,8 +97,10 @@ F
 - pytest
 
 ---
-## 5. Project Structure
----
+
+## Project structure
+
+```
 resume-screening-agent/
 ├── server.py                   # Flask API + serves the frontend (python server.py)
 ├── static/
@@ -116,10 +118,12 @@ resume-screening-agent/
 │   ├── extractor.py             # raw text → structured fields (LLM + fallback)
 │   ├── scorer.py                # structured fields → sub-scores → final score
 │   ├── ranker.py                # ties it together, ranks, builds reasoning
-│   └── llm_client.py            #  # Groq LLM client for structured resume extraction
+│   └── llm_client.py            # thin OpenAI wrapper
 └── tests/
     └── test_scorer.py            # unit tests for the scoring math
 ```
+
+---
 
 ---
 
