@@ -1,5 +1,4 @@
-cat > README.md << 'EOF'
-# AI Resume Screening Agent
+
 
 ## 1. Project Title
 
@@ -324,4 +323,3 @@ The test suite validates resume parsing, score calculation, ranking logic, and o
 ## 19. Author
 
 Padma Malladi
-EOF
