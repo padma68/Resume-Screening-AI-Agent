@@ -34,6 +34,15 @@ Resumes (10+)    ──┘        │
                  ranked_candidates.csv / .json (sorted, best first)
 ```
 
+
+## Live Demo
+
+**Web Application:**  
+https://your-live-app-url.com
+
+**GitHub Repository:**  
+https://github.com/yourusername/resume-screening-agent
+
 ### Main Capabilities
 
 - Parse resumes in PDF, DOCX, and TXT formats
@@ -92,20 +101,30 @@ Resumes (10+)    ──┘        │
 
 ## 5. Project Structure
 
-```text
+
+## Project structure
+
+```
 resume-screening-agent/
-├── README.md
-├── requirements.txt
-├── app.py
-├── parser/
-├── scoring/
-├── utils/
-├── templates/
+├── server.py                   # Flask API + serves the frontend (python server.py)
 ├── static/
-├── sample_data/
-├── docs/
-├── screenshots/
+│   └── index.html               # hand-built frontend (case-file UI, calls the API)
+├── main.py                     # CLI entry point
+├── generate_report.py          # static HTML snapshot of a past result
+├── requirements.txt
+├── .env.example                # copy to .env to configure an LLM key
+├── data/
+│   ├── job_description.txt     # sample JD (Backend Engineer, ML Platform)
+│   └── resumes/                # 11 sample resumes (.pdf, .docx, .txt mixed)
+├── output/                     # generated CSV/JSON land here
+├── src/
+│   ├── parser.py                # file → raw text (.pdf/.docx/.txt)
+│   ├── extractor.py             # raw text → structured fields (LLM + fallback)
+│   ├── scorer.py                # structured fields → sub-scores → final score
+│   ├── ranker.py                # ties it together, ranks, builds reasoning
+│   └── llm_client.py            #  # Groq LLM client for structured resume extraction
 └── tests/
+    └── test_scorer.py            # unit tests for the scoring math
 ```
 
 ---
@@ -238,13 +257,6 @@ TF-IDF vectorization converts the Job Description and resumes into numerical vec
 - Groq API enhances resume field extraction using an LLM.
 - Rule-based extraction ensures the application remains functional without external APIs.
 
-### Current Limitations
-
-- OCR is not supported for scanned PDFs.
-- Only English resumes are supported.
-- Images and graphics inside resumes are ignored.
-- GitHub and LinkedIn profiles are not analyzed.
-
 ### Future Improvements
 
 - OCR support
@@ -308,11 +320,6 @@ The test suite validates resume parsing, score calculation, ranking logic, and o
 
 ---
 
-## 18. License
-
-MIT License
-
----
 
 ## 19. Author
 
