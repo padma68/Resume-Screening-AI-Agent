@@ -135,7 +135,7 @@ git clone <repository-url>
 
 cd resume-screening-agent
 
-pip install -r resume-screening-agent/requirements.txt
+ pip install -r requirements.txt
 
 ```
 
