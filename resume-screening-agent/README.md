@@ -12,6 +12,15 @@ Web Application Live:
 
 Resume Screening AI Agent Video Link
 [https://drive.google.com/file/d/1h96v1KSXnSmo1kEVYSZSwzsOr6p9yOgn/view?usp=sharing]
+# Resume Screening Agent
+
+Ranks a folder of resumes against a job description and outputs an ordered,
+explainable shortlist as CSV and JSON.
+
+Built for the Rooman Technologies 24-Hour AI Agent Challenge (Junior AI
+Research Associate — Resume Screening Agent track).
+
+---
 
 ## What it does
 
@@ -288,6 +297,8 @@ number next to it.
 - `data/resumes/` — 11 sample resumes spanning `.docx`, `.pdf`, and `.txt`
   formats, with deliberately varied skill overlap and experience levels so
   the ranking is meaningful rather than trivial.
+
+
 
 Web Application Live: [https://resume-screening-ai-agent-2.onrender.com/]
 
