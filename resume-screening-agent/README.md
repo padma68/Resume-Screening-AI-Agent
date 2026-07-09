@@ -7,6 +7,11 @@ Built for the Rooman Technologies 24-Hour AI Agent Challenge (Junior AI
 Research Associate — Resume Screening Agent track).
 
 ---
+Web Application Live:
+[https://resume-screening-ai-agent-2.onrender.com/]
+
+Resume Screening AI Agent Video Link
+[https://drive.google.com/file/d/1h96v1KSXnSmo1kEVYSZSwzsOr6p9yOgn/view?usp=sharing]
 
 ## What it does
 
