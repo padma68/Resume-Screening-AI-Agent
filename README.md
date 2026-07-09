@@ -40,7 +40,7 @@ Resumes (10+)    ──┘        │
 https://your-live-app-url.com
 
 **Resume Screening AI Agent Video Link**  
-[https://github.com/yourusername/resume-screening-agent](https://drive.google.com/file/d/1h96v1KSXnSmo1kEVYSZSwzsOr6p9yOgn/view?usp=sharing)
+(https://drive.google.com/file/d/1h96v1KSXnSmo1kEVYSZSwzsOr6p9yOgn/view?usp=sharing)
 
 ### Main Capabilities
 
@@ -52,7 +52,7 @@ https://your-live-app-url.com
 - Generate explainable ranking results
 - Process 10+ resumes in a single execution
 - Export ranked results in CSV and JSON formats
-
+F
 ---
 
 ## 3. Features
@@ -135,7 +135,8 @@ git clone <repository-url>
 
 cd resume-screening-agent
 
-pip install -r requirements.txt
+pip install -r resume-screening-agent/requirements.txt
+
 ```
 
 ---
