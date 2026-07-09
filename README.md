@@ -40,8 +40,8 @@ Resumes (10+)    ──┘        │
 **Web Application:**  
 https://your-live-app-url.com
 
-**GitHub Repository:**  
-https://github.com/yourusername/resume-screening-agent
+**Resume Screening AI Agent Video Link**  
+[https://github.com/yourusername/resume-screening-agent](https://drive.google.com/file/d/1h96v1KSXnSmo1kEVYSZSwzsOr6p9yOgn/view?usp=sharing)
 
 ### Main Capabilities
 
