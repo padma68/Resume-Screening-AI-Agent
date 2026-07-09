@@ -77,6 +77,7 @@ F
 
 - Python
 - Flask
+- Gunicorn
 
 ### AI / NLP
 
