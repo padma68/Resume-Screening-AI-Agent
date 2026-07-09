@@ -124,14 +124,16 @@ resume-screening-agent/
 
 ---
 
-## 6. Installation                                                         
+## 6. Installation                                                                                                                                  
 
 ```bash
-git clone <repository-url>
-
+# 1. Clone and enter the repo
+git clone <your-repo-url>
 cd resume-screening-agent
 
- pip install -r requirements.txt
+
+# 2. Install dependencies
+pip install -r requirements.txt
 
 ```
 
